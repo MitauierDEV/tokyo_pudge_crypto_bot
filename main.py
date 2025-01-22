@@ -1,7 +1,7 @@
-from crypto_client.crypto_currency_client import get_crypto_currency_price
+from crypto_client.crypto_currency_client import *
 
 def main():
-    price = get_crypto_currency_price('bitcoin')
+    price = get_crypto_currency_price('bitcoin', '29-12-2024')
     print(price.text)
 
 
